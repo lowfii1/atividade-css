@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book your trial lesson</title>
+    <link rel="stylesheet" href="agenda.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <h1>English Course</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Courses</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="form-container">
+            <h2>Book your trial lesson</h2>
+            <p>Fill in the form below and guarantee your place!</p>
+            <form>
+                <label for="nome">Full name:</label>
+                <input type="text" id="nome" name="nome" placeholder="Your full name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your email" required>
+
+                <label for="data">Schedule Date:</label>
+                <input type="date" id="data" name="data" required>
+
+                <label for="hora">Schedule Time:</label>
+                <input type="time" id="hora" name="hora" required>
+
+                <label for="servico">Select Service</label>
+                <select id="servico" name="servico" required>
+                    <option value="">Servive Option...</option>
+                    <option value="Academic Exchange">Academic Exchange</option>
+                    <option value="Exchanges">Exchanges for young people and teenagers</option>
+                    <option value="English professional">English courses abroad for professionals</option>
+                    <option value="English certifications">English courses to prepare for certifications</option>
+                    <option value="General English">General English course</option>
+                </select>
+
+                <button type="submit">Book your trial lesson</button>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
